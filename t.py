@@ -1,7 +1,7 @@
-
+#!/usr/bin/python
 import numpy as np
 
-n,k=[int(input()) for i in range(2)]
+n,k=list(int(input()) for i in range(2))
 l=sorted(list(int(input()) for i in range(n)))
 if k > 2:
 	print(int(round(l[-1]-l[0])))
